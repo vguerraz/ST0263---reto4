@@ -26,5 +26,4 @@ Despliegue de WebApp Monolítica en un clúster de alta disponibilidad en Kubern
 
 
 ## Video
-
-https://eafit-my.sharepoint.com/:v:/g/personal/vguerraz_eafit_edu_co/EZUylTEiMadIsb6W9thQ8tQB986JveB9B4fJkGreqNGS8g?referrer=Teams.TEAMS-ELECTRON&referrerScenario=MeetingChicletGetLink.view.view 
+https://eafit-my.sharepoint.com/:v:/g/personal/vguerraz_eafit_edu_co/EZUylTEiMadIsb6W9thQ8tQB2BWwbFEFHrODZoJpuWA54Q?e=iSeqo3

@@ -13,4 +13,5 @@ Reto 4 de Tópicos Especiales de Telemática (2024-1)
 
 
 ##Video
+
 https://eafit-my.sharepoint.com/:v:/g/personal/vguerraz_eafit_edu_co/EZUylTEiMadIsb6W9thQ8tQB986JveB9B4fJkGreqNGS8g?referrer=Teams.TEAMS-ELECTRON&referrerScenario=MeetingChicletGetLink.view.view 

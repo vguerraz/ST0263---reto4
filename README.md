@@ -66,13 +66,14 @@ sudo apt-get install mariadb-client
 ```
 
 ## Componentes
-cert.yaml: En este manifiesto se define un recurso de tipo Certificate para la encriptación TLS.
-cluster-issuer.yaml: Se configura un recurso tipo ClusterIssuer para el servidor ACME para el certificado.
-efs-pv.yaml: Este manifiesto define un PersistentVolume para representar el recurso de almacenamiento compartido con EFS.
-efs-pv.yaml: Este manifiesto define un PersistentVolumeClaim para representar la capa de abstracción entre el pod y el PersistentVolume.
-wordpress-deployment.yaml: Aqui se define un recurso Deployment para desplegar WordPress, se definieron 2 replicas, y se consume la base de datos creada en el servicio RDS de AWS.
-wordpress-ingress.yaml:En este manifiesto se define un recurso tipo Ingress que tendrá como controlador a NGINX.
-wordpress-service.yaml: Se deine un recurso tipo Service, que expone la app de wordpress como un servicio a internet.
+Como se explica en el video, encontramos varios servicios usados en la consola de AWS como EFS, RDS, EC2 y EKS, dentro del clúster encontramos varios archivos de configuración o manifiestos como: 
+- cert.yaml: En este manifiesto se define un recurso de tipo Certificate para la encriptación TLS.
+- cluster-issuer.yaml: Se configura un recurso tipo ClusterIssuer para el servidor ACME para el certificado.
+- efs-pv.yaml: Este manifiesto define un PersistentVolume para representar el recurso de almacenamiento compartido con EFS.
+- efs-pv.yaml: Este manifiesto define un PersistentVolumeClaim para representar la capa de abstracción entre el pod y el PersistentVolume.
+- wordpress-deployment.yaml: Aqui se define un recurso Deployment para desplegar WordPress, se definieron 2 replicas, y se consume la base de datos creada en el servicio RDS de AWS.
+- wordpress-ingress.yaml:En este manifiesto se define un recurso tipo Ingress que tendrá como controlador a NGINX.
+- wordpress-service.yaml: Se deine un recurso tipo Service, que expone la app de wordpress como un servicio a internet.
 
 
 ## Video

@@ -8,3 +8,9 @@ Reto 4 de Tópicos Especiales de Telemática (2024-1)
 ### Otros servicios
 ![image](https://github.com/vguerraz/ST0263-reto4/assets/81716232/5290b113-9e79-465c-943a-b19c814ce8fe)
 
+
+
+
+
+##Video
+https://eafit-my.sharepoint.com/:v:/g/personal/vguerraz_eafit_edu_co/EZUylTEiMadIsb6W9thQ8tQB986JveB9B4fJkGreqNGS8g?referrer=Teams.TEAMS-ELECTRON&referrerScenario=MeetingChicletGetLink.view.view 

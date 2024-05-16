@@ -18,6 +18,10 @@ Despliegue de WebApp Monolítica en un clúster de alta disponibilidad en Kubern
 ####  Aspectos de la actividad no cumplidos o desarrollados
 - Certificado SSL para el dominio.
 
+## Arquitectura
+![Arquitectura](https://github.com/vguerraz/ST0263-reto4/assets/84991036/fa6126cd-5ff9-4307-af8d-acf981e41b13)
+
+
 ## Descripción del ambiente de desarrollo y técnico
 Para ejecutar y desplegar los recursos, ejectutamos:
 

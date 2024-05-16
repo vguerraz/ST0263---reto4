@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wordpress
+spec:
+  replicas: 2  # Puedes ajustar el número de réplicas según la necesidad
+  selector:
+    matchLabels:
+      app: wordpress
+  template:
+    metadata:
+      labels:
+        app: wordpress
+    spec:
+      containers:
+      - name: wordpress
+        image: wordpress:latest
+        env:
+        - name: WORDPRESS_DB_HOST
+          value: dbwithpass.c9mame4g8fzy.us-east-1.rds.amazonaws.com  # Sustituye con el hostname de tu bas>
+        - name: WORDPRESS_DB_USER
+          value: wordpress  # Sustituye con el usuario de tu base de datos
+        - name: WORDPRESS_DB_PASSWORD
+          value: password  # Sustituye con la contraseña de tu base de datos
+        - name: WORDPRESS_DB_NAME
+          value: wordpress  # Sustituye con el nombre de tu base de datos
+        ports:
+        - containerPort: 80
+        volumeMounts:
+        - name: wordpress-persistent-storage
+          mountPath: /var/www/html
+      volumes:
+      - name: wordpress-persistent-storage
+        persistentVolumeClaim:
+          claimName: efs-claim

@@ -82,3 +82,5 @@ Como se explica en el video, encontramos varios servicios usados en la consola d
 
 ## Video
 https://eafit-my.sharepoint.com/:v:/g/personal/vguerraz_eafit_edu_co/EZUylTEiMadIsb6W9thQ8tQB2BWwbFEFHrODZoJpuWA54Q?e=iSeqo3
+
+En YT: https://youtu.be/N70eOahj5h4 
